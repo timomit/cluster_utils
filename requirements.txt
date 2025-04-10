@@ -1,0 +1,7 @@
+pip >= 23.0
+flake8
+black
+isort
+pre-commit
+pytest
+setuptools >= 67.0
