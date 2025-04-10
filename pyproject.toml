@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cluster_utils"
+version = "0.1.0"
+description = "My collection of hopefully useful python scripts for hpc clusters"
+readme = "README.md"
+authors = [
+    {name = "Timo Gierlich", email = "timo.gierlich@uinbe.ch"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/timomit/cluster_utils"
+"Bug Tracker" = "https://github.com/timomit/cluster_utils/issues"
+
+[project.scripts]
+uuid-dir = "cluster_utils.make_uuid_dir:main"
