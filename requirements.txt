@@ -4,4 +4,6 @@ black
 isort
 pre-commit
 pytest
+pytest-sugar  
+pytest-cov  
 setuptools >= 67.0
